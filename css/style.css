@@ -1,0 +1,146 @@
+body {
+  text-align: center;
+  color: #C71585;
+  background: radial-gradient(circle, #fff 15%, #ccc);
+  background-size: 150px;
+  font-size: 1rem;
+  font-family: Lucidatypewriter, monospace;
+  margin-top: 1em;
+  background-image: url(http://33.media.tumblr.com/02fa882868ca359ed472899eec3def9a/tumblr_n4n6i66zZG1tnw08to1_500.gif);
+}
+
+ h1 {
+  /* Using the custom font we've included in the HTML tab: */
+  font-family: Satisfy, cursive;
+  font-weight: normal;
+  font-size: 60px;
+  padding-top: 80px;
+  margin: 10px;
+}
+
+.player {
+  display: relative;
+  font-family: serif;
+  font-size: 40px;
+  color: #DDA0DD;
+  text-align: center;
+  margin: 10px auto;
+  width: 200px;
+}
+
+.currentPlayer {
+  background-color: #FF8C00;
+  color: #9400D3;
+}
+
+#winner {
+  font-family: Comic Sans, Comic Sans MS, cursive ;
+  font-size: 40px;
+  color: #DC143C;
+  text-align: center;
+  margin: 20px;
+}
+
+.board {
+  width: 1050px;
+  height: 260px;
+  border: 8px solid;
+  margin: auto;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 30px;
+  background-image: url(http://orig11.deviantart.net/c90f/f/2013/356/d/5/bouncing_mochi_test_by_magicalpouchofmagic-d6z0061.gif);
+}
+
+#divRows {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pit {
+  font-family: 'Cinzel', serif;
+  position: relative;
+  border: 3px solid #00CED1;
+  border-radius: 50%;
+  border-spacing: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  color: #BA55D3;
+  font-size: 50px;
+}
+
+.pit:hover, #buttonDiv:hover {
+  background-color: #9370DB;
+  color: #DA70D6;
+  cursor: pointer;
+
+}
+
+.pit.lock:hover {
+  color: #00CED1;
+  cursor: not-allowed;
+
+}
+
+.mochi {
+  font-family: 'Csinzel', serif;
+  border: 3px solid #BA55D3;
+  border-radius: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+  width: 100px;
+  margin: 15px 10px;
+  color: #FF4500;
+  font-size: 50px;
+}
+
+#mochi2 {
+  float: left;
+}
+
+#mochi1 {
+  float: right;
+}
+
+.plusOne {
+  font-family: 'Cinzel', serif;
+  color: #FF00FF;
+  font-size: 80px;
+  margin: 10px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+#divRows {
+  margin: auto;
+}
+
+#restartDiv {
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  margin: 10px auto;
+  background-color: #1E90FF;
+  color: #8A2BE2;
+  cursor: pointer;
+}
+
